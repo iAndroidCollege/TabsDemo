@@ -20,7 +20,7 @@ public class TabsPagerAdapter extends FragmentStatePagerAdapter {
             case 1:
                 return new RecievedMailFragment();
             case 2:
-                return new SettingsFragment();
+                return new HomeFragment();
         }
         return null;
     }
